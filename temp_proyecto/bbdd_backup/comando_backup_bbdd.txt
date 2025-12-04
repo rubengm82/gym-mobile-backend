@@ -1,0 +1,5 @@
+Para toda la bbdd:
+--> php artisan db:seed
+
+o individual: 
+--> php artisan db:seed --class=ClienteSeeder
