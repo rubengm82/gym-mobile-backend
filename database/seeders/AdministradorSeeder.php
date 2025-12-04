@@ -25,14 +25,14 @@ class AdministradorSeeder extends Seeder
                 'id_user' => 1,
                 'mail' => 'nicolas@a.es',
                 'rol' => 'admin',
-                'password' => Hash::make('admin'),
+                'password' => 'admin',
                 'estado' => 1,
             ],
             [
                 'id_user' => 2,
                 'mail' => 'admin',
                 'rol' => 'admin',
-                'password' => Hash::make('admin'),
+                'password' => 'admin',
                 'estado' => 1,
             ],
         ];
