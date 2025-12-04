@@ -36,4 +36,10 @@ class Cliente extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    // Relación con Reservas
+    public function reservas()
+    {
+        return $this->hasMany(Reserva::class, 'fk_id_cliente', 'id_cliente');
+    }
 }
