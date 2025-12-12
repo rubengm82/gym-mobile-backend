@@ -12,12 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('Planificaciones', function (Blueprint $table) {
-            $table->integer('id_planificacion')->primary();
+            $table->id('id_planificacion');
             $table->string('dia', 20)->nullable();
             $table->time('hora_inicio')->nullable();
             $table->time('hora_fin')->nullable();
-            $table->integer('fk_id_clase')->nullable();
-            $table->integer('fk_id_inst')->nullable();
+            $table->unsignedBigInteger('fk_id_clase')->nullable();
+            $table->unsignedBigInteger('fk_id_inst')->nullable();
             $table->integer('estado')->default(1);
             $table->timestamps();
 

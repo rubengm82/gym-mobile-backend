@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('Clientes', function (Blueprint $table) {
-            $table->integer('id_cliente')->primary();
+            $table->id('id_cliente');
             $table->string('nombre', 100)->nullable();
             $table->string('apellido1', 100)->nullable();
             $table->string('apellido2', 100)->nullable();

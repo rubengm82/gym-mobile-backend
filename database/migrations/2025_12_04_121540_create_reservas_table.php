@@ -12,9 +12,9 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('Reservas', function (Blueprint $table) {
-            $table->integer('id_reserva')->primary();
-            $table->integer('fk_id_planificacion')->nullable();
-            $table->integer('fk_id_cliente')->nullable();
+            $table->id('id_reserva');
+            $table->unsignedBigInteger('fk_id_planificacion')->nullable();
+            $table->unsignedBigInteger('fk_id_cliente')->nullable();
             $table->date('fecha_reserva')->nullable();
             $table->integer('estado')->default(1);
             $table->timestamps();
