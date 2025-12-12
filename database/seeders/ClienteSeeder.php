@@ -23,7 +23,7 @@ class ClienteSeeder extends Seeder
         // Datos de los clientes extraídos del SQL
         $clientes = [
             [
-                'id_cliente' => 24,
+                'id' => 24,
                 'nombre' => 'Juan',
                 'apellido1' => 'Real',
                 'apellido2' => 'López',
@@ -35,7 +35,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 25,
+                'id' => 25,
                 'nombre' => 'Anna',
                 'apellido1' => 'García',
                 'apellido2' => 'Fernández',
@@ -47,7 +47,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 26,
+                'id' => 26,
                 'nombre' => 'Carlos',
                 'apellido1' => 'Martínez',
                 'apellido2' => 'Gómez',
@@ -59,7 +59,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 27,
+                'id' => 27,
                 'nombre' => 'Laura',
                 'apellido1' => 'Sánchez',
                 'apellido2' => 'Ruiz',
@@ -71,7 +71,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 28,
+                'id' => 28,
                 'nombre' => 'Pedro',
                 'apellido1' => 'Díaz',
                 'apellido2' => 'Morales',
@@ -83,7 +83,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 29,
+                'id' => 29,
                 'nombre' => 'Marta',
                 'apellido1' => 'Romero',
                 'apellido2' => 'Navarro',
@@ -95,7 +95,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 30,
+                'id' => 30,
                 'nombre' => 'Luis',
                 'apellido1' => 'Torres',
                 'apellido2' => 'Vega',
@@ -107,7 +107,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 31,
+                'id' => 31,
                 'nombre' => 'Sofía',
                 'apellido1' => 'Ramírez',
                 'apellido2' => 'Cruz',
@@ -119,7 +119,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 32,
+                'id' => 32,
                 'nombre' => 'Diego',
                 'apellido1' => 'Hernández',
                 'apellido2' => 'Ortiz',
@@ -131,7 +131,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 33,
+                'id' => 33,
                 'nombre' => 'Lucía',
                 'apellido1' => 'Moreno',
                 'apellido2' => 'Iglesias',
@@ -143,7 +143,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 35,
+                'id' => 35,
                 'nombre' => 'Alberto',
                 'apellido1' => 'Santos',
                 'apellido2' => 'Pérez',
@@ -155,7 +155,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 36,
+                'id' => 36,
                 'nombre' => 'Isabel',
                 'apellido1' => 'Vargas',
                 'apellido2' => 'López',
@@ -167,7 +167,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 37,
+                'id' => 37,
                 'nombre' => 'Fernando',
                 'apellido1' => 'Castillo',
                 'apellido2' => 'Ramírez',
@@ -179,7 +179,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 38,
+                'id' => 38,
                 'nombre' => 'Elena',
                 'apellido1' => 'Ríos',
                 'apellido2' => 'Gómez',
@@ -191,7 +191,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 39,
+                'id' => 39,
                 'nombre' => 'Ricardo',
                 'apellido1' => 'Molina',
                 'apellido2' => 'Fernández',
@@ -203,7 +203,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 40,
+                'id' => 40,
                 'nombre' => 'Paula',
                 'apellido1' => 'Alonso',
                 'apellido2' => 'Sánchez',
@@ -215,7 +215,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 41,
+                'id' => 41,
                 'nombre' => 'Sergio',
                 'apellido1' => 'Navarro',
                 'apellido2' => 'Díaz',
@@ -227,7 +227,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 42,
+                'id' => 42,
                 'nombre' => 'Marina',
                 'apellido1' => 'Cruz',
                 'apellido2' => 'Morales',
@@ -239,7 +239,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 43,
+                'id' => 43,
                 'nombre' => 'Javier',
                 'apellido1' => 'Herrera',
                 'apellido2' => 'Romero',
@@ -251,7 +251,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 44,
+                'id' => 44,
                 'nombre' => 'Natalia',
                 'apellido1' => 'Ortiz',
                 'apellido2' => 'Vega',
@@ -263,7 +263,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 45,
+                'id' => 45,
                 'nombre' => 'David',
                 'apellido1' => 'Gómez',
                 'apellido2' => 'Cruz',
@@ -275,7 +275,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 46,
+                'id' => 46,
                 'nombre' => 'Cristina',
                 'apellido1' => 'Pardo',
                 'apellido2' => 'Fernández',
@@ -287,7 +287,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 47,
+                'id' => 47,
                 'nombre' => 'Manuel',
                 'apellido1' => 'Gil',
                 'apellido2' => 'Ruiz',
@@ -299,7 +299,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 48,
+                'id' => 48,
                 'nombre' => 'Verónica',
                 'apellido1' => 'Medina',
                 'apellido2' => 'Moreno',
@@ -311,7 +311,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 49,
+                'id' => 49,
                 'nombre' => 'Pablo',
                 'apellido1' => 'Serrano',
                 'apellido2' => 'Iglesias',
@@ -323,7 +323,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 50,
+                'id' => 50,
                 'nombre' => 'Laura',
                 'apellido1' => 'Marín',
                 'apellido2' => 'Ramos',
@@ -335,7 +335,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 51,
+                'id' => 51,
                 'nombre' => 'José',
                 'apellido1' => 'Domínguez',
                 'apellido2' => 'López',
@@ -347,7 +347,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 52,
+                'id' => 52,
                 'nombre' => 'Andrea',
                 'apellido1' => 'Cabrera',
                 'apellido2' => 'Martínez',
@@ -359,7 +359,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 53,
+                'id' => 53,
                 'nombre' => 'Raúl',
                 'apellido1' => 'Santos',
                 'apellido2' => 'Pérez',
@@ -371,7 +371,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 54,
+                'id' => 54,
                 'nombre' => 'Clara',
                 'apellido1' => 'Méndez',
                 'apellido2' => 'Vega',
@@ -383,7 +383,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 55,
+                'id' => 55,
                 'nombre' => 'Antonio',
                 'apellido1' => 'Fuentes',
                 'apellido2' => 'Navarro',
@@ -395,7 +395,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 56,
+                'id' => 56,
                 'nombre' => 'Patricia',
                 'apellido1' => 'Román',
                 'apellido2' => 'Hernández',
@@ -407,7 +407,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 57,
+                'id' => 57,
                 'nombre' => 'Miguel',
                 'apellido1' => 'Castro',
                 'apellido2' => 'Ortiz',
@@ -419,7 +419,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 58,
+                'id' => 58,
                 'nombre' => 'Sonia',
                 'apellido1' => 'Vega',
                 'apellido2' => 'Ramos',
@@ -431,7 +431,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 59,
+                'id' => 59,
                 'nombre' => 'Adrián',
                 'apellido1' => 'Blanco',
                 'apellido2' => 'Gil',
@@ -443,7 +443,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 60,
+                'id' => 60,
                 'nombre' => 'Raquel',
                 'apellido1' => 'Mora',
                 'apellido2' => 'Serrano',
@@ -455,7 +455,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 61,
+                'id' => 61,
                 'nombre' => 'Héctor',
                 'apellido1' => 'Campos',
                 'apellido2' => 'Pardo',
@@ -467,7 +467,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 62,
+                'id' => 62,
                 'nombre' => 'Natalie',
                 'apellido1' => 'Vidal',
                 'apellido2' => 'Gómez',
@@ -479,7 +479,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 63,
+                'id' => 63,
                 'nombre' => 'Iván',
                 'apellido1' => 'Luna',
                 'apellido2' => 'Morales',
@@ -491,7 +491,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 64,
+                'id' => 64,
                 'nombre' => 'Sandra',
                 'apellido1' => 'Ramos',
                 'apellido2' => 'Cruz',
@@ -503,7 +503,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 65,
+                'id' => 65,
                 'nombre' => 'Diego',
                 'apellido1' => 'Reyes',
                 'apellido2' => 'Molina',
@@ -515,7 +515,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 66,
+                'id' => 66,
                 'nombre' => 'Mónica',
                 'apellido1' => 'Pérez',
                 'apellido2' => 'Sánchez',
@@ -527,7 +527,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 67,
+                'id' => 67,
                 'nombre' => 'Francisco',
                 'apellido1' => 'Ortiz',
                 'apellido2' => 'López',
@@ -539,7 +539,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 68,
+                'id' => 68,
                 'nombre' => 'Lorena',
                 'apellido1' => 'Vega',
                 'apellido2' => 'Fernández',
@@ -551,7 +551,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 69,
+                'id' => 69,
                 'nombre' => 'Alfonso',
                 'apellido1' => 'Cano',
                 'apellido2' => 'Navarro',
@@ -563,7 +563,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 70,
+                'id' => 70,
                 'nombre' => 'Julia',
                 'apellido1' => 'Guerrero',
                 'apellido2' => 'Gómez',
@@ -575,7 +575,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 71,
+                'id' => 71,
                 'nombre' => 'Raúl',
                 'apellido1' => 'Pérez',
                 'apellido2' => 'Ruiz',
@@ -587,7 +587,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 72,
+                'id' => 72,
                 'nombre' => 'Teresa',
                 'apellido1' => 'Santos',
                 'apellido2' => 'López',
@@ -599,7 +599,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 73,
+                'id' => 73,
                 'nombre' => 'Gonzalo',
                 'apellido1' => 'Vargas',
                 'apellido2' => 'Fernández',
@@ -611,7 +611,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 0,
             ],
             [
-                'id_cliente' => 74,
+                'id' => 74,
                 'nombre' => 'Inés',
                 'apellido1' => 'Martínez',
                 'apellido2' => 'Romero',
@@ -623,7 +623,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 75,
+                'id' => 75,
                 'nombre' => 'Mario',
                 'apellido1' => 'López',
                 'apellido2' => 'Morales',
@@ -635,7 +635,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 76,
+                'id' => 76,
                 'nombre' => 'Cecilia',
                 'apellido1' => 'Fernández',
                 'apellido2' => 'Navarro',
@@ -647,7 +647,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 77,
+                'id' => 77,
                 'nombre' => 'Tomás',
                 'apellido1' => 'Hernández',
                 'apellido2' => 'Cruz',
@@ -659,7 +659,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 78,
+                'id' => 78,
                 'nombre' => 'Olga',
                 'apellido1' => 'Sánchez',
                 'apellido2' => 'Vega',
@@ -671,7 +671,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 79,
+                'id' => 79,
                 'nombre' => 'Iván',
                 'apellido1' => 'Moreno',
                 'apellido2' => 'Ramírez',
@@ -683,7 +683,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 80,
+                'id' => 80,
                 'nombre' => 'Claudia',
                 'apellido1' => 'Romero',
                 'apellido2' => 'Gómez',
@@ -695,7 +695,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 81,
+                'id' => 81,
                 'nombre' => 'Jorge',
                 'apellido1' => 'Torres',
                 'apellido2' => 'López',
@@ -707,7 +707,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 82,
+                'id' => 82,
                 'nombre' => 'Verónica',
                 'apellido1' => 'Molina',
                 'apellido2' => 'Fernández',
@@ -719,7 +719,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 83,
+                'id' => 83,
                 'nombre' => 'Andrés',
                 'apellido1' => 'González',
                 'apellido2' => 'Navarro',
@@ -731,7 +731,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 84,
+                'id' => 84,
                 'nombre' => 'Natalia',
                 'apellido1' => 'López',
                 'apellido2' => 'Ramírez',
@@ -743,7 +743,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 85,
+                'id' => 85,
                 'nombre' => 'Raúl',
                 'apellido1' => 'Hernández',
                 'apellido2' => 'Serrano',
@@ -755,7 +755,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 86,
+                'id' => 86,
                 'nombre' => 'Sandra',
                 'apellido1' => 'Gómez',
                 'apellido2' => 'Pérez',
@@ -767,7 +767,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 87,
+                'id' => 87,
                 'nombre' => 'Luis',
                 'apellido1' => 'Vega',
                 'apellido2' => 'Martínez',
@@ -779,7 +779,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 88,
+                'id' => 88,
                 'nombre' => 'Carla',
                 'apellido1' => 'Navarro',
                 'apellido2' => 'Ruiz',
@@ -791,7 +791,7 @@ class ClienteSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_cliente' => 89,
+                'id' => 89,
                 'nombre' => 'Diego',
                 'apellido1' => 'Cabrera',
                 'apellido2' => 'Gómez',

@@ -21,7 +21,7 @@ class PlanificacionSeeder extends Seeder
         // Datos de las planificaciones extraídos del SQL
         $planificaciones = [
             [
-                'id_planificacion' => 12,
+                'id' => 12,
                 'dia' => 'Lunes',
                 'hora_inicio' => '16:00:00',
                 'hora_fin' => '17:00:00',
@@ -30,7 +30,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 14,
+                'id' => 14,
                 'dia' => 'Martes',
                 'hora_inicio' => '09:30:00',
                 'hora_fin' => '10:45:00',
@@ -39,7 +39,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 15,
+                'id' => 15,
                 'dia' => 'Martes',
                 'hora_inicio' => '12:00:00',
                 'hora_fin' => '13:00:00',
@@ -48,7 +48,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 16,
+                'id' => 16,
                 'dia' => 'Martes',
                 'hora_inicio' => '16:30:00',
                 'hora_fin' => '17:30:00',
@@ -57,7 +57,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 17,
+                'id' => 17,
                 'dia' => 'Martes',
                 'hora_inicio' => '18:30:00',
                 'hora_fin' => '19:00:00',
@@ -66,7 +66,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 18,
+                'id' => 18,
                 'dia' => 'Miércoles',
                 'hora_inicio' => '09:00:00',
                 'hora_fin' => '10:30:00',
@@ -75,7 +75,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 19,
+                'id' => 19,
                 'dia' => 'Miércoles',
                 'hora_inicio' => '12:00:00',
                 'hora_fin' => '13:00:00',
@@ -84,7 +84,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 20,
+                'id' => 20,
                 'dia' => 'Miércoles',
                 'hora_inicio' => '16:00:00',
                 'hora_fin' => '17:00:00',
@@ -93,7 +93,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 21,
+                'id' => 21,
                 'dia' => 'Miércoles',
                 'hora_inicio' => '19:30:00',
                 'hora_fin' => '20:45:00',
@@ -102,7 +102,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 22,
+                'id' => 22,
                 'dia' => 'Jueves',
                 'hora_inicio' => '09:45:00',
                 'hora_fin' => '10:30:00',
@@ -111,7 +111,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 23,
+                'id' => 23,
                 'dia' => 'Jueves',
                 'hora_inicio' => '12:00:00',
                 'hora_fin' => '13:15:00',
@@ -120,7 +120,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 24,
+                'id' => 24,
                 'dia' => 'Jueves',
                 'hora_inicio' => '17:00:00',
                 'hora_fin' => '18:15:00',
@@ -129,7 +129,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 25,
+                'id' => 25,
                 'dia' => 'Jueves',
                 'hora_inicio' => '19:45:00',
                 'hora_fin' => '21:00:00',
@@ -138,7 +138,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 26,
+                'id' => 26,
                 'dia' => 'Viernes',
                 'hora_inicio' => '09:00:00',
                 'hora_fin' => '10:00:00',
@@ -147,7 +147,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 27,
+                'id' => 27,
                 'dia' => 'Viernes',
                 'hora_inicio' => '11:00:00',
                 'hora_fin' => '11:45:00',
@@ -156,7 +156,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 28,
+                'id' => 28,
                 'dia' => 'Viernes',
                 'hora_inicio' => '16:00:00',
                 'hora_fin' => '17:30:00',
@@ -165,7 +165,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 38,
+                'id' => 38,
                 'dia' => 'Viernes',
                 'hora_inicio' => '08:00:00',
                 'hora_fin' => '09:00:00',
@@ -174,7 +174,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 39,
+                'id' => 39,
                 'dia' => 'Viernes',
                 'hora_inicio' => '15:00:00',
                 'hora_fin' => '16:00:00',
@@ -183,7 +183,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 42,
+                'id' => 42,
                 'dia' => 'Lunes',
                 'hora_inicio' => '11:00:00',
                 'hora_fin' => '12:00:00',
@@ -192,7 +192,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 50,
+                'id' => 50,
                 'dia' => 'Lunes',
                 'hora_inicio' => '09:00:00',
                 'hora_fin' => '10:00:00',
@@ -201,7 +201,7 @@ class PlanificacionSeeder extends Seeder
                 'estado' => 1,
             ],
             [
-                'id_planificacion' => 55,
+                'id' => 55,
                 'dia' => 'Lunes',
                 'hora_inicio' => '08:00:00',
                 'hora_fin' => '09:00:00',

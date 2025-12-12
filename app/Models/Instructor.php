@@ -11,7 +11,7 @@ class Instructor extends Model
 
     protected $table = 'Instructores';
 
-    protected $primaryKey = 'id_inst';
+    protected $primaryKey = 'id';
 
     protected $fillable = [
         'nombre',
@@ -25,6 +25,6 @@ class Instructor extends Model
     // Relación con Planificaciones
     public function planificaciones()
     {
-        return $this->hasMany(Planificacion::class, 'fk_id_inst', 'id_inst');
+        return $this->hasMany(Planificacion::class, 'fk_id_inst', 'id');
     }
 }

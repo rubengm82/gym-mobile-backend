@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('Planificaciones', function (Blueprint $table) {
-            $table->id('id_planificacion');
+            $table->id();
             $table->string('dia', 20)->nullable();
             $table->time('hora_inicio')->nullable();
             $table->time('hora_fin')->nullable();
@@ -21,8 +21,8 @@ return new class extends Migration
             $table->integer('estado')->default(1);
             $table->timestamps();
 
-            $table->foreign('fk_id_clase')->references('id_clase')->on('Clases')->onDelete('cascade');
-            $table->foreign('fk_id_inst')->references('id_inst')->on('Instructores')->onDelete('cascade');
+            $table->foreign('fk_id_clase')->references('id')->on('Clases')->onDelete('cascade');
+            $table->foreign('fk_id_inst')->references('id')->on('Instructores')->onDelete('cascade');
         });
     }
 

@@ -12,12 +12,11 @@ class Administrador extends Authenticatable
 
     protected $table = 'Administradores';
 
-    protected $primaryKey = 'id_user';
+    protected $primaryKey = 'id';
 
     protected $email = 'mail'; // Especificar que el campo de email es 'mail'
 
     protected $fillable = [
-        'id_user',
         'mail',
         'rol',
         'password',

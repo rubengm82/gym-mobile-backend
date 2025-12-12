@@ -11,7 +11,7 @@ class Clase extends Model
 
     protected $table = 'Clases';
 
-    protected $primaryKey = 'id_clase';
+    protected $primaryKey = 'id';
 
     protected $fillable = [
         'nombre',
@@ -23,6 +23,6 @@ class Clase extends Model
     // Relación con Planificaciones
     public function planificaciones()
     {
-        return $this->hasMany(Planificacion::class, 'fk_id_clase', 'id_clase');
+        return $this->hasMany(Planificacion::class, 'fk_id_clase', 'id');
     }
 }

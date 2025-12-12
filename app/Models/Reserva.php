@@ -11,7 +11,7 @@ class Reserva extends Model
 
     protected $table = 'Reservas';
 
-    protected $primaryKey = 'id_reserva';
+    protected $primaryKey = 'id';
 
     protected $fillable = [
         'fk_id_planificacion',
@@ -23,12 +23,12 @@ class Reserva extends Model
     // Relación con Planificacion
     public function planificacion()
     {
-        return $this->belongsTo(Planificacion::class, 'fk_id_planificacion', 'id_planificacion');
+        return $this->belongsTo(Planificacion::class, 'fk_id_planificacion', 'id');
     }
 
     // Relación con Cliente
     public function cliente()
     {
-        return $this->belongsTo(Cliente::class, 'fk_id_cliente', 'id_cliente');
+        return $this->belongsTo(Cliente::class, 'fk_id_cliente', 'id');
     }
 }

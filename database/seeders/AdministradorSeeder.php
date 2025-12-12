@@ -22,14 +22,14 @@ class AdministradorSeeder extends Seeder
         // Datos de los administradores extraídos del SQL
         $administradores = [
             [
-                'id_user' => 1,
+                'id' => 1,
                 'mail' => 'nicolas@a.es',
                 'rol' => 'admin',
                 'password' => 'admin',
                 'estado' => 1,
             ],
             [
-                'id_user' => 2,
+                'id' => 2,
                 'mail' => 'admin',
                 'rol' => 'admin',
                 'password' => 'admin',

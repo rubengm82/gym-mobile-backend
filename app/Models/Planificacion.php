@@ -11,7 +11,7 @@ class Planificacion extends Model
 
     protected $table = 'Planificaciones';
 
-    protected $primaryKey = 'id_planificacion';
+    protected $primaryKey = 'id';
 
     protected $fillable = [
         'dia',
@@ -25,18 +25,18 @@ class Planificacion extends Model
     // Relación con Clase
     public function clase()
     {
-        return $this->belongsTo(Clase::class, 'fk_id_clase', 'id_clase');
+        return $this->belongsTo(Clase::class, 'fk_id_clase', 'id');
     }
 
     // Relación con Instructor
     public function instructor()
     {
-        return $this->belongsTo(Instructor::class, 'fk_id_inst', 'id_inst');
+        return $this->belongsTo(Instructor::class, 'fk_id_inst', 'id');
     }
 
     // Relación con Reservas
     public function reservas()
     {
-        return $this->hasMany(Reserva::class, 'fk_id_planificacion', 'id_planificacion');
+        return $this->hasMany(Reserva::class, 'fk_id_planificacion', 'id');
     }
 }

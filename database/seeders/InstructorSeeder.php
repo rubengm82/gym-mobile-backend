@@ -21,7 +21,7 @@ class InstructorSeeder extends Seeder
         // Datos de los instructores extraídos del SQL
         $instructores = [
             [
-                'id_inst' => 1,
+                'id' => 1,
                 'nombre' => 'Ana',
                 'apellido1' => 'Pérez',
                 'apellido2' => 'García',
@@ -30,7 +30,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '1',
             ],
             [
-                'id_inst' => 2,
+                'id' => 2,
                 'nombre' => 'Carlos',
                 'apellido1' => 'Díaz',
                 'apellido2' => 'López',
@@ -39,7 +39,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '0',
             ],
             [
-                'id_inst' => 3,
+                'id' => 3,
                 'nombre' => 'Lucía',
                 'apellido1' => 'Martínez',
                 'apellido2' => 'Hernández',
@@ -48,7 +48,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '0',
             ],
             [
-                'id_inst' => 4,
+                'id' => 4,
                 'nombre' => 'Javier',
                 'apellido1' => 'Gómez',
                 'apellido2' => 'Santos',
@@ -57,7 +57,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '1',
             ],
             [
-                'id_inst' => 5,
+                'id' => 5,
                 'nombre' => 'María',
                 'apellido1' => 'Ruiz',
                 'apellido2' => 'Fernández',
@@ -66,7 +66,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '1',
             ],
             [
-                'id_inst' => 6,
+                'id' => 6,
                 'nombre' => 'David',
                 'apellido1' => 'Sánchez',
                 'apellido2' => 'Moreno',
@@ -75,7 +75,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '1',
             ],
             [
-                'id_inst' => 7,
+                'id' => 7,
                 'nombre' => 'Laura',
                 'apellido1' => 'Torres',
                 'apellido2' => 'Vega',
@@ -84,7 +84,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '0',
             ],
             [
-                'id_inst' => 8,
+                'id' => 8,
                 'nombre' => 'Pablo',
                 'apellido1' => 'Ramírez',
                 'apellido2' => 'Castillo',
@@ -93,7 +93,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '0',
             ],
             [
-                'id_inst' => 9,
+                'id' => 9,
                 'nombre' => 'Sara',
                 'apellido1' => 'Jiménez',
                 'apellido2' => 'Blanco',
@@ -102,7 +102,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '1',
             ],
             [
-                'id_inst' => 10,
+                'id' => 10,
                 'nombre' => 'Miguel',
                 'apellido1' => 'Cruz',
                 'apellido2' => 'Ortiz',
@@ -111,7 +111,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '1',
             ],
             [
-                'id_inst' => 11,
+                'id' => 11,
                 'nombre' => 'Jose ',
                 'apellido1' => 'Peña',
                 'apellido2' => 'Salazar',
@@ -120,7 +120,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '1',
             ],
             [
-                'id_inst' => 12,
+                'id' => 12,
                 'nombre' => 'Nico',
                 'apellido1' => 'Alvarezs',
                 'apellido2' => 'Alcaraz',
@@ -129,7 +129,7 @@ class InstructorSeeder extends Seeder
                 'estado' => '1',
             ],
             [
-                'id_inst' => 40,
+                'id' => 40,
                 'nombre' => 'Robert',
                 'apellido1' => 'Palancuela',
                 'apellido2' => 'Ibuñez',

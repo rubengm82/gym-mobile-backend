@@ -12,15 +12,15 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('Reservas', function (Blueprint $table) {
-            $table->id('id_reserva');
+            $table->id();
             $table->unsignedBigInteger('fk_id_planificacion')->nullable();
             $table->unsignedBigInteger('fk_id_cliente')->nullable();
             $table->date('fecha_reserva')->nullable();
             $table->integer('estado')->default(1);
             $table->timestamps();
 
-            $table->foreign('fk_id_planificacion')->references('id_planificacion')->on('Planificaciones')->onDelete('cascade');
-            $table->foreign('fk_id_cliente')->references('id_cliente')->on('Clientes')->onDelete('cascade');
+            $table->foreign('fk_id_planificacion')->references('id')->on('Planificaciones')->onDelete('cascade');
+            $table->foreign('fk_id_cliente')->references('id')->on('Clientes')->onDelete('cascade');
         });
     }
 

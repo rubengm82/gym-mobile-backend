@@ -12,10 +12,11 @@ class Cliente extends Authenticatable
 
     protected $table = 'Clientes';
 
+    protected $primaryKey = 'id';
+
     protected $email = 'mail'; // Especificar que el campo de email es 'mail'
 
     protected $fillable = [
-        'id_cliente',
         'nombre',
         'apellido1',
         'apellido2',
@@ -40,6 +41,6 @@ class Cliente extends Authenticatable
     // Relación con Reservas
     public function reservas()
     {
-        return $this->hasMany(Reserva::class, 'fk_id_cliente', 'id_cliente');
+        return $this->hasMany(Reserva::class, 'fk_id_cliente', 'id');
     }
 }
