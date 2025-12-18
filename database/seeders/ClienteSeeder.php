@@ -23,6 +23,18 @@ class ClienteSeeder extends Seeder
         // Datos de los clientes extraídos del SQL
         $clientes = [
             [
+                'id' => 1,
+                'nombre' => 'Admin',
+                'apellido1' => 'Apellido1',
+                'apellido2' => 'Apellido2',
+                'IBAN' => 'ES2730722588606405734047',
+                'mail' => 'admin@admin.com',
+                'telefono' => '600000111',
+                'password' => '0000',
+                'remember_token' => null,
+                'estado' => 1,
+            ],
+            [
                 'id' => 24,
                 'nombre' => 'Juan',
                 'apellido1' => 'Real',

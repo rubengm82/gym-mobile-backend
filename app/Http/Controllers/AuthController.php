@@ -22,6 +22,11 @@ class AuthController extends Controller
             return response()->json(['error' => 'Credenciales inválidas'], 401);
         }
 
+        // Verificar estado
+        if ($cliente->estado != 1) {
+            return response()->json(['error' => 'Cuenta no activada'], 403);
+        }
+
         // Crear token
         $token = $cliente->createToken('API Token')->plainTextToken;
 
