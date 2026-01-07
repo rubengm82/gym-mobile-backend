@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\PlanificacionController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ReservaController;
 
 
 
@@ -38,3 +39,11 @@ Route::put('/clientes/{cliente}', [ClienteController::class, 'update']);
 Route::get('/planificaciones', [PlanificacionController::class, 'index']);
 Route::get('/planificaciones/{planificacion}', [PlanificacionController::class, 'show']);
 Route::put('/planificaciones/{planificacion}', [PlanificacionController::class, 'update']);
+
+// RESERVAS
+Route::get('/reservas', [ReservaController::class, 'index']);
+Route::get('/reservas/{reserva}', [ReservaController::class, 'show']);
+Route::post('/reservas', [ReservaController::class, 'store']);
+Route::put('/reservas/{reserva}', [ReservaController::class, 'update']);
+Route::delete('/reservas/{reserva}', [ReservaController::class, 'destroy']);
+Route::post('/reservas/{reserva}/cancelar', [ReservaController::class, 'cancelarReserva']);
