@@ -47,3 +47,4 @@ Route::post('/reservas', [ReservaController::class, 'store']);
 Route::put('/reservas/{reserva}', [ReservaController::class, 'update']);
 Route::delete('/reservas/{reserva}', [ReservaController::class, 'destroy']);
 Route::post('/reservas/{reserva}/cancelar', [ReservaController::class, 'cancelarReserva']);
+Route::get('/reservas/cliente/{cliente}', [ReservaController::class, 'userReservas']);

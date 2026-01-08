@@ -28,16 +28,6 @@ public function store(Request $request)
         'estado' => 'required|string|max:50',
     ]);
 
-    
-    $existeReserva = Reserva::where('fk_id_planificacion', $validated['fk_id_planificacion'])
-        ->where('fk_id_cliente', $validated['fk_id_cliente'])
-        ->exists();
-
-    if ($existeReserva) {
-        return response()->json([
-            'message' => 'Ya tienes una reserva para esta clase'
-        ], 409); // 409 Conflict
-    }
 
     $reserva = Reserva::create($validated);
 
@@ -105,4 +95,19 @@ public function store(Request $request)
             'data' => $reserva
         ]);
     }
+
+    public function userReservas($id)
+{
+    $reservas = Reserva::with([
+            'planificacion.clase',
+            'planificacion.instructor',
+            'cliente'
+        ])
+        ->where('fk_id_cliente', $id)
+        ->where('estado', '!=', '-1')
+        ->get();
+
+    return response()->json($reservas);
+}
+
 }
