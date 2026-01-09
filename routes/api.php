@@ -4,8 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\PlanificacionController;
 use App\Http\Controllers\AuthController;
-
-
+use App\Http\Controllers\ConfirmacionController;
 
 /////////////////////
 // AUTOMATIC ROUTES
@@ -38,3 +37,6 @@ Route::put('/clientes/{cliente}', [ClienteController::class, 'update']);
 Route::get('/planificaciones', [PlanificacionController::class, 'index']);
 Route::get('/planificaciones/{planificacion}', [PlanificacionController::class, 'show']);
 Route::put('/planificaciones/{planificacion}', [PlanificacionController::class, 'update']);
+
+//CONFIRMACIONES
+Route::put('/reservas/{id}/confirmada', [ConfirmacionController::class, 'update']);
