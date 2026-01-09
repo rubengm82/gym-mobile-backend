@@ -87,7 +87,7 @@ public function store(Request $request)
     public function cancelarReserva($id)
     {
         $reserva = Reserva::findOrFail($id);
-        $reserva->estado = 'cancelada';
+        $reserva->estado = '0';
         $reserva->save();
 
         return response()->json([
@@ -104,7 +104,7 @@ public function store(Request $request)
             'cliente'
         ])
         ->where('fk_id_cliente', $id)
-        ->where('estado', '!=', '-1')
+        ->where('estado', '1')
         ->get();
 
     return response()->json($reservas);
